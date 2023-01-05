@@ -1,9 +1,24 @@
 {% extends "layout.html.twig" %}
 
+
 {% block content %}
 
 <div class="container">
+
     <div class="d-flex flex-column align-items-center justify-content-center p-4">
+    
+        <div class="my-3">
+            <label for="">Adresse</label>
+            <input type="text" placeholder="Adresse">
+        </div>
+
+        <div>
+            <label for="">Ville</label>
+            <input type="text" placeholder="Ville">
+        </div>
+
+
+    
         <div class="my-3">
             <label for="">Prenom</label>
             <input type="text" placeholder="Prenom">
@@ -13,11 +28,13 @@
             <label for="">Nom</label>
             <input type="text" placeholder="Nom">
         </div>  
-      
-    </div>
+
+
+
 
 </div>
-    
-
-
+</div>
 {% endblock content %}
+
+
+
